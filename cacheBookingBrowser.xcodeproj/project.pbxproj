@@ -1,0 +1,388 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		557F78512272EDE800FDA1BD /* noInternet.html in Resources */ = {isa = PBXBuildFile; fileRef = 557F78502272EDE800FDA1BD /* noInternet.html */; };
+		558B881B224495DD00FDDF4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558B881A224495DD00FDDF4C /* AppDelegate.swift */; };
+		558B881D224495DD00FDDF4C /* BrowserVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558B881C224495DD00FDDF4C /* BrowserVC.swift */; };
+		558B8820224495DD00FDDF4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 558B881E224495DD00FDDF4C /* Main.storyboard */; };
+		558B8823224495DD00FDDF4C /* cacheBookingBrowser.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 558B8821224495DD00FDDF4C /* cacheBookingBrowser.xcdatamodeld */; };
+		558B8825224495E500FDDF4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 558B8824224495E500FDDF4C /* Assets.xcassets */; };
+		558B8828224495E500FDDF4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 558B8826224495E500FDDF4C /* LaunchScreen.storyboard */; };
+		558B88302244A06600FDDF4C /* Pages+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558B882F2244A06600FDDF4C /* Pages+CoreDataClass.swift */; };
+		558B88322244A08900FDDF4C /* Pages+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558B88312244A08900FDDF4C /* Pages+CoreDataProperties.swift */; };
+		558B88342244B1FA00FDDF4C /* TabVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558B88332244B1FA00FDDF4C /* TabVC.swift */; };
+		558B88362244BDE900FDDF4C /* TabData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558B88352244BDE900FDDF4C /* TabData.swift */; };
+		558B883B2244BF4F00FDDF4C /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558B88392244BF4F00FDDF4C /* CustomCollectionViewCell.swift */; };
+		558B883C2244BF4F00FDDF4C /* CustomCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 558B883A2244BF4F00FDDF4C /* CustomCollectionViewCell.xib */; };
+		558B883E2244C6DE00FDDF4C /* detailPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558B883D2244C6DE00FDDF4C /* detailPageVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		557F78502272EDE800FDA1BD /* noInternet.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = noInternet.html; sourceTree = "<group>"; };
+		558B8817224495DD00FDDF4C /* cacheBookingBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cacheBookingBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		558B881A224495DD00FDDF4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		558B881C224495DD00FDDF4C /* BrowserVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowserVC.swift; sourceTree = "<group>"; };
+		558B881F224495DD00FDDF4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		558B8822224495DD00FDDF4C /* cacheBookingBrowser.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = cacheBookingBrowser.xcdatamodel; sourceTree = "<group>"; };
+		558B8824224495E500FDDF4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		558B8827224495E500FDDF4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		558B8829224495E500FDDF4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		558B882F2244A06600FDDF4C /* Pages+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Pages+CoreDataClass.swift"; sourceTree = "<group>"; };
+		558B88312244A08900FDDF4C /* Pages+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Pages+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		558B88332244B1FA00FDDF4C /* TabVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabVC.swift; sourceTree = "<group>"; };
+		558B88352244BDE900FDDF4C /* TabData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabData.swift; sourceTree = "<group>"; };
+		558B88392244BF4F00FDDF4C /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
+		558B883A2244BF4F00FDDF4C /* CustomCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCollectionViewCell.xib; sourceTree = "<group>"; };
+		558B883D2244C6DE00FDDF4C /* detailPageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailPageVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		558B8814224495DD00FDDF4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		558B880E224495DD00FDDF4C = {
+			isa = PBXGroup;
+			children = (
+				558B8819224495DD00FDDF4C /* cacheBookingBrowser */,
+				558B8818224495DD00FDDF4C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		558B8818224495DD00FDDF4C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				558B8817224495DD00FDDF4C /* cacheBookingBrowser.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		558B8819224495DD00FDDF4C /* cacheBookingBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				558B881A224495DD00FDDF4C /* AppDelegate.swift */,
+				558B881C224495DD00FDDF4C /* BrowserVC.swift */,
+				558B88332244B1FA00FDDF4C /* TabVC.swift */,
+				558B88352244BDE900FDDF4C /* TabData.swift */,
+				558B88392244BF4F00FDDF4C /* CustomCollectionViewCell.swift */,
+				558B883A2244BF4F00FDDF4C /* CustomCollectionViewCell.xib */,
+				558B883D2244C6DE00FDDF4C /* detailPageVC.swift */,
+				557F78502272EDE800FDA1BD /* noInternet.html */,
+				558B881E224495DD00FDDF4C /* Main.storyboard */,
+				558B8824224495E500FDDF4C /* Assets.xcassets */,
+				558B8826224495E500FDDF4C /* LaunchScreen.storyboard */,
+				558B8829224495E500FDDF4C /* Info.plist */,
+				558B8821224495DD00FDDF4C /* cacheBookingBrowser.xcdatamodeld */,
+				558B882F2244A06600FDDF4C /* Pages+CoreDataClass.swift */,
+				558B88312244A08900FDDF4C /* Pages+CoreDataProperties.swift */,
+			);
+			path = cacheBookingBrowser;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		558B8816224495DD00FDDF4C /* cacheBookingBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 558B882C224495E500FDDF4C /* Build configuration list for PBXNativeTarget "cacheBookingBrowser" */;
+			buildPhases = (
+				558B8813224495DD00FDDF4C /* Sources */,
+				558B8814224495DD00FDDF4C /* Frameworks */,
+				558B8815224495DD00FDDF4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cacheBookingBrowser;
+			productName = cacheBookingBrowser;
+			productReference = 558B8817224495DD00FDDF4C /* cacheBookingBrowser.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		558B880F224495DD00FDDF4C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Kohei Masumi";
+				TargetAttributes = {
+					558B8816224495DD00FDDF4C = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 558B8812224495DD00FDDF4C /* Build configuration list for PBXProject "cacheBookingBrowser" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 558B880E224495DD00FDDF4C;
+			productRefGroup = 558B8818224495DD00FDDF4C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				558B8816224495DD00FDDF4C /* cacheBookingBrowser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		558B8815224495DD00FDDF4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				558B8828224495E500FDDF4C /* LaunchScreen.storyboard in Resources */,
+				558B883C2244BF4F00FDDF4C /* CustomCollectionViewCell.xib in Resources */,
+				558B8825224495E500FDDF4C /* Assets.xcassets in Resources */,
+				558B8820224495DD00FDDF4C /* Main.storyboard in Resources */,
+				557F78512272EDE800FDA1BD /* noInternet.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		558B8813224495DD00FDDF4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				558B88362244BDE900FDDF4C /* TabData.swift in Sources */,
+				558B88342244B1FA00FDDF4C /* TabVC.swift in Sources */,
+				558B88322244A08900FDDF4C /* Pages+CoreDataProperties.swift in Sources */,
+				558B88302244A06600FDDF4C /* Pages+CoreDataClass.swift in Sources */,
+				558B881D224495DD00FDDF4C /* BrowserVC.swift in Sources */,
+				558B883B2244BF4F00FDDF4C /* CustomCollectionViewCell.swift in Sources */,
+				558B8823224495DD00FDDF4C /* cacheBookingBrowser.xcdatamodeld in Sources */,
+				558B881B224495DD00FDDF4C /* AppDelegate.swift in Sources */,
+				558B883E2244C6DE00FDDF4C /* detailPageVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		558B881E224495DD00FDDF4C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				558B881F224495DD00FDDF4C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		558B8826224495E500FDDF4C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				558B8827224495E500FDDF4C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		558B882A224495E500FDDF4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		558B882B224495E500FDDF4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		558B882D224495E500FDDF4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FM86PHFGGA;
+				INFOPLIST_FILE = cacheBookingBrowser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = koheimsm.cacheBookingBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		558B882E224495E500FDDF4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FM86PHFGGA;
+				INFOPLIST_FILE = cacheBookingBrowser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = koheimsm.cacheBookingBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		558B8812224495DD00FDDF4C /* Build configuration list for PBXProject "cacheBookingBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				558B882A224495E500FDDF4C /* Debug */,
+				558B882B224495E500FDDF4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		558B882C224495E500FDDF4C /* Build configuration list for PBXNativeTarget "cacheBookingBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				558B882D224495E500FDDF4C /* Debug */,
+				558B882E224495E500FDDF4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		558B8821224495DD00FDDF4C /* cacheBookingBrowser.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				558B8822224495DD00FDDF4C /* cacheBookingBrowser.xcdatamodel */,
+			);
+			currentVersion = 558B8822224495DD00FDDF4C /* cacheBookingBrowser.xcdatamodel */;
+			path = cacheBookingBrowser.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 558B880F224495DD00FDDF4C /* Project object */;
+}
